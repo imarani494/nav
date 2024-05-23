@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            /* display: flex; */
+            /* justify-content: center;
+            align-items: center; */
+         
+            margin: 0
+       }
+      .container {
+        display: flex;
+      }
+      nav {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        margin-right: auto;
+      }
+      .nav-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 800px;
+      }
+      .nav-item {
+        margin-left: 20px;
+      }
+
+      .signup-button {
+        margin-left: 20px;
+        height: 50px;
+        width: 90px;
+        background-color: white;
+        border: 1px solid red;
+        border-radius: 9px;
+      }
+      .main{
+        height: 200px;
+          width: 400px;
+          margin: 10px;
+
+          box-shadow: rgb(0, 0, 0, 0.2) 4px 4px 6px 4px;
+      }
+      .square{
+        height: 400px;
+          width: 400px;
+          margin: 10px;
+
+          box-shadow: rgb(0, 0, 0, 0.2) 4px 4px 6px 4px;
+      }
+      .form-container {
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .login-link {
+            margin-top: 10px;
+            display: block;
+            color: #333;
+            text-decoration: none;
+        }
+        .login-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img
+          src="https://ik.imagekit.io/krazybee/kreditbee_in/logo_horizontal_BNqOuZWg_.svg"
+          alt="masai"
+          class="logo"
+          height="100"
+          width="100"
+        />
+        <div class="nav-items">
+          <div class="nav-item">
+            <span>Loans</span>
+            <select style="background-color: white; border: none"></select>
+          </div>
+          <div class="nav-item">
+            <span>Calculate</span>
+            <select style="background-color: white; border: none"></select>
+          </div>
+          <div class="nav-item">
+            <span>Credit Score</span>
+          </div>
+          <div class="nav-item">
+            <span>Refer & Earn</span>
+          </div>
+          <img
+            src="https://t4.ftcdn.net/jpg/02/56/77/27/240_F_256772708_0txHG3qRJhmG8k7epmceoUjlV0dRT8PJ.jpg"
+            alt=""
+            height="50"
+            width="50"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png"
+            alt=""
+            height="30"
+            width="30"
+          />
+          <button class="signup-button">Signup</button>
+        </div>
+      </nav>
+    </div>
+
+    <div style="display: flex; align-items: center; justify-content: center">
+      <h1 style="color: rgb(154, 152, 152); align-items: center">
+        Why choose KreditBee?
+      </h1>
+    </div>
+    <div style="display: flex; margin: 20px;">
+      
+      <div class="main">
+
+        <img  style="margin: 30px; height: 80px;width: 80px;" src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-1.svg" alt="">
+    <div style="margin: 30px; margin-top: -40px;"> <p>Lower Interest Rates</p>
+    <p>Get loans for multiple purposes at lower interest rates to suit your needs</p>
+    </div> 
+      </div>
+      <div class="main">
+
+        <img  style="margin: 30px; height: 80px;width: 80px;" src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-1.svg" alt="">
+    <div style="margin: 30px; margin-top: -40px;"> <p>Lower Interest Rates</p>
+    <p>Get loans for multiple purposes at lower interest rates to suit your needs</p>
+    </div> 
+      </div><div class="main">
+
+        <img  style="margin: 30px; height: 80px;width: 80px;" src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-1.svg" alt="">
+    <div style="margin: 30px; margin-top: -40px;"> <p>Lower Interest Rates</p>
+    <p>Get loans for multiple purposes at lower interest rates to suit your needs</p>
+    </div> 
+      </div>
+     
+    </div>
+    <h1 style="margin: 20px;">Fresh from the Blog </h1>
+    <div  style="display: flex; margin: 20px;">
+    
+    <div class="square">
+    
+      <img style="height: 240px;width: 400px;"
+       src="https://i.etsystatic.com/inv/73f1ea/5310016542/inv_620x495.5310016542_ukkxc6qi.jpg?version=0" alt="">
+       <div style="margin: 20px;"> <p>Shopping Guides</p>
+        <h4> 9 Comfort from the guide the value</h4>
+        <p>Get loans for multiple purposes at lower interest rates to suit your needs</p>
+       </div>
+    </div>
+    <div class="square">
+    
+      <img style="height: 240px;width: 400px;"
+       src="https://i.etsystatic.com/inv/73f1ea/5310016542/inv_620x495.5310016542_ukkxc6qi.jpg?version=0" alt="">
+       <div style="margin: 20px;"> <p>Shopping Guides</p>
+        <h4> 9 Comfort from the guide the value</h4>
+        <p>Get loans for multiple purposes at lower interest rates to suit your needs</p>
+       </div>
+    </div>
+    <div class="square">
+    
+      <img style="height: 240px;width: 400px;"
+       src="https://i.etsystatic.com/inv/73f1ea/5310016542/inv_620x495.5310016542_ukkxc6qi.jpg?version=0" alt="">
+       <div style="margin: 20px;"> <p>Shopping Guides</p>
+        <h4> 9 Comfort from the guide the value</h4>
+        <p>Get loans for multiple purposes at lower interest rates to suit your needs</p>
+       </div>
+    </div>
+    </div>
+    <div style="display: flex;justify-content: center;align-items: center;background-color: rgb(233, 236, 42);">
+    <div class="form-container">
+      <h5>Create Account</h5>
+      <span>Alreday have an Acoount ?</span>
+      <span style="color: blue;">Sign in</span>
+      <form action="#" method="POST">
+          <input type="text" n placeholder="Name" required>
+          <input type="email" n placeholder="Email" required>
+          <input type="password"  placeholder="Password" required>
+          <input type="tel"  placeholder="Phone Number" required>
+          <input type="submit" value="Submit">
+      </form>
+      <span>Already have an account?</span><span style="color: blue;">Login ?</span>
+   
+  </div>
+</div>
+  </body>
+</html>
